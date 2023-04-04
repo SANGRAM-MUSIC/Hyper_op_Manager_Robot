@@ -35,7 +35,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "VIP MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1808943146").split())
+    map(int, getenv("OWNER_ID", "1820859049").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -47,7 +47,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/SANGRAM-MUSIC/Hyper_op_Manager_Robot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
